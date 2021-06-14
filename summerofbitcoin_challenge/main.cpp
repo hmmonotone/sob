@@ -39,7 +39,7 @@ bool compare(tran* a, tran* b){
 int main() {
 	// std::ios::sync_with_stdio(false);
   freopen("mempool.txt","r",stdin);
-  freopen("output.txt","w",stdout);
+  freopen("block.txt","w",stdout);
     int no_of_tran=5214;
     vector<tran*> mempool;
     for(int i=0;i<no_of_tran;i++)
