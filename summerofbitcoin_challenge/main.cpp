@@ -57,7 +57,7 @@ int main() {
         if(parents_with_comma!="N"){
         for(int j=0;j<parents_with_comma.size();j++)
         {
-            if(parents_with_comma[j]!=',')
+            if(parents_with_comma[j]!=';')
             {
                 t+=parents_with_comma[j];
             }
